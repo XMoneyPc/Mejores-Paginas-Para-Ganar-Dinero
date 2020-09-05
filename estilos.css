@@ -1,0 +1,682 @@
+body  {
+    background:linear-gradient(-90deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    font-size: 1.2rem;
+    
+    
+}
+
+p  {
+    margin-bottom: 1.em;
+}
+h1 {
+    font-size: 2rem;
+    line-height: 1.3em;
+    text-align: center; 
+}
+
+.container {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header {
+    background: black;
+    color: honeydew;  
+    padding: 0.5rem 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    position: fixed;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+  
+  .header a {
+      color: #00ffff;
+      text-decoration: none;   
+  }
+
+
+
+.logo {
+    
+    letter-spacing: 0px;
+    font-size: 3em;
+    
+    
+    
+}
+.menu-icon {
+    display: none;
+
+
+}
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+   
+    
+}
+    .navigation ul li {
+        display: inline-block;
+        
+    }
+         .navigation ul li a {
+        display: block;
+        padding: 0.5rem 1rem;
+        transition: all 0 linear;
+        border-radius: 5px;
+
+       }
+
+           .navigation ul li a:hover {
+               background: white ;
+           }
+
+main {
+    padding-top: 4rem;
+    
+} 
+
+#publicidad{
+    width: 1450px;
+    height: 190px;
+    margin: auto;
+    background: rgba(255,255,255,.2);
+
+    
+
+    
+
+}
+#publicidad img {
+width: 100%;
+height: 110px;
+border-radius: 0.5em;
+margin-top: 10px;
+
+} 
+
+#publicidad1{
+    width: 14%;
+    height: 75%;
+    background: rgba(255,255,255,.2);
+    border-radius: 0.5em;
+    margin: 1em;
+    text-align: center;
+    float: left;
+    
+
+    
+} 
+#publicidad11{
+    width: 98%;
+    height: 29px;
+    background: black;
+    font-size: 18px;
+    color: white;
+    border-radius: 0.3em;
+    border: 3px solid #00ffff;
+    
+
+    
+    
+
+} 
+
+    
+    
+
+
+#publicidad2{
+    width: 14%;
+    height: 75%;
+    background: rgba(255,255,255,.2);
+    border-radius: 0.5em;
+    margin: 1em;
+    text-align: center;
+    float: left;
+    
+} 
+
+    
+
+ 
+#publicidad3{
+    width: 14%;
+    height: 75%;
+    background: rgba(255,255,255,.2);
+    border-radius: 0.5em;
+    margin: 1em;
+    text-align: center;
+    float: left;
+    
+} 
+ 
+#publicidad4{
+    width: 14%;
+    height: 75%;
+    background: rgba(255,255,255,.2);
+    border-radius: 0.5em;
+    margin: 1em;
+    text-align: center;
+    float: left;
+    
+} 
+
+#publicidad5{
+    width: 14%;
+    height: 75%;
+    background: rgba(255,255,255,.2);
+    border-radius: 0.5em;
+    margin: 1em;
+    text-align: center;
+    
+    float: left;
+} 
+ 
+#publicidad6{
+    width: 14%;
+    height: 75%;
+    background: rgba(255,255,255,.2);
+    border-radius: 0.5em;
+    margin: 1em;
+    text-align: center;
+    
+    float: left;
+} 
+
+
+
+
+
+#contenido{
+    width: 1500px;
+    height: 3300px; 
+    margin: auto;
+    text-align: center;
+
+    
+    
+} 
+
+#contenido1{
+    width: 26%;
+    height: 99%;
+    background: rgba(255,255,255,.2);
+    border-radius: 1em;
+    margin: 0.5em;
+    float: left;
+    text-align: center;
+    
+} 
+#banercon{
+    width: 98%;
+    height: 36px;
+    background: black;
+    margin: 5px auto;
+    border: solid 0.2em rgb(0, 248, 12);
+}
+
+#banercont{
+    width: 98%;
+    height: 100px;
+    margin: 10px auto;
+    border: solid 0.3em rgb(0, 248, 12);
+    
+}
+#banercoinpot img{
+    width: 99%;
+    height: 50px;
+    margin: 5px auto;
+    border:solid 1px black;
+}
+
+#textcoinpot{
+    width: 98%;
+    height:40px;
+    border: solid 2px black;
+    color: black;
+    text-align: left;
+    margin: 5px auto;
+    background: rgb(150, 168, 164);
+}
+
+table{
+    width: 100%;
+    height: 99%;
+    background-color: rgb(0, 255, 255);
+    text-align: left;
+    border-collapse: collapse;
+    margin: auto;
+    
+    
+}
+th, td{
+    border: solid 2px black;
+    height: 30px;
+    width: 25%;
+    font-size: 17px;
+    
+}
+    
+    
+
+thead{
+    background-color: rgb(152, 0, 253);
+    color: white;
+}
+
+    
+
+#textbanercont{
+    font-size: 20px;
+    width: 95%;
+    height: 25px;
+    background: black;
+    margin: auto;
+    color: white;
+    
+}
+#banercont11{
+    width: 100%;
+    height: 49%;
+    
+    
+}
+#banercont11 img{
+    width: 100%;
+    height: 100%;
+}
+#banercont111{
+    width: 100%;
+    height: 49%;
+    
+   
+}
+
+#banercont11 img{
+    width: 100%;
+    padding-top: 2px;
+    
+}
+
+#banners{
+    padding-top: 2px;
+}
+#banners img{
+    border-radius: 0.5em;
+    width: 98%;
+    height: 60px;
+   
+}
+
+#contenido2{
+    width: 44%;
+    height: 99%;
+    background: rgba(255,255,255,.2);
+    float: left;
+    border-radius: 1em;
+    margin: 0.5em;
+    text-align: center;
+
+      
+} 
+#textcontenido2{
+    width: 98%;
+    height: 30px;
+    background: black;
+    font-size: 24px;
+    color: white;
+    border-radius: 0.3em;
+    border: 4px solid #00ff40;
+
+}
+
+#textcontenidofc{
+    width: 98%;
+    height: 30px;
+    background: black;
+    font-size: 20px;
+    color: white;
+    border-radius: 0.3em;
+    border: 4px solid #00ff40;
+    line-height: 30px;
+    margin-top: 40px;
+
+}
+#textcontenidoexc{
+    width: 98%;
+    height: 30px;
+    background: black;
+    font-size: 20px;
+    color: white;
+    border-radius: 0.3em;
+    border: 4px solid #00ff40;
+    line-height: 30px;
+    margin-top: 20px;
+    
+}
+#tabladetalles{
+    width: 98%;
+    height: 30px;
+    margin: 5px auto;
+    background: rgba(255,255,255,.2);
+    display: flex;
+    align-items: center;
+    color: white;
+    border: solid 0.3em black;
+    
+    
+
+   
+}
+
+
+
+
+#tabladetalles1{
+    width: 19%;
+    height: 80%;
+    background: black;
+    float: left;
+    margin: 0.14em;
+    line-height: 22px;
+    font-size: 20px;
+    border-radius: 0.5em;
+    
+    
+}
+#tabladetalles2{
+    width: 19%;
+    height: 80%;
+    background: black;
+    float: left;
+    margin: 0.14em;
+    line-height: 22px;
+    font-size: 20px;
+    border-radius: 0.5em;
+    
+}
+#tabladetalles3{
+    width: 19%;
+    height: 80%;
+    background: black;
+    float: left;
+    margin: 0.14em;
+    line-height: 20px;
+    font-size: 15px;
+    border-radius: 0.5em;
+    
+}
+
+#tabladetalles4{
+    width: 19%;
+    height: 80%;
+    background: black;
+    float: left;
+    margin: 0.14em;
+    line-height: 22px;
+    font-size: 20px;
+    border-radius: 0.5em;
+    
+}#tabladetalles5{
+    width: 19%;
+    height: 80%;
+    background: black;
+    float: left;
+    margin: 0.14em;
+    line-height: 22px;
+    font-size: 20px;
+    border-radius: 0.5em;
+    
+}
+#banercont2{
+    width: 98%;
+    height: 115px;
+    background: rgba(255,255,255,.2);
+    margin: 5px auto;
+    border: solid 0.3em rgb(0, 0, 0);
+    
+}
+#contenido22{
+    width: 100%;
+    height: 42px;
+    margin: auto;
+    margin-top:10px;
+    
+    
+    
+}
+#contenido222{
+    width: 18.5%;
+    height: 80%;
+    background: #00d9ff;
+    color: black;
+    font-size: 15px;
+    border: solid 2px black;
+    
+    
+    float: left;
+    margin: 0.14em;
+    line-height: 40px;
+   
+    
+    
+    
+    
+}
+#contenido223{
+    width: 18.5%;
+    height: 80%;
+    background: #3af700;
+    color: black;
+    border: solid 2px black;
+    float: left;
+    margin: 0.14em;
+    line-height: 40px;
+   
+    
+}
+#contenido224{
+    width: 18.5%;
+    height: 80%;
+    background: #3af700;
+    color: black;
+    border: solid 2px black;
+    float: left;
+    margin: 0.14em;
+    line-height: 40px;
+    
+    
+}
+#contenido225{
+    width: 18.5%;
+    height: 80%;
+    background: #3af700;
+    color: black;
+    float: left;
+    margin: 0.14em;
+    line-height: 40px;
+    border: solid 2px black;
+   
+}
+#contenido225 a{
+    text-decoration: none;
+    color: black;
+}
+
+#contenido225 a:hover{
+    background: rgb(119, 0, 255);
+}
+#contenido226{
+    width: 18.5%;
+    height: 80%;
+    background: #3af700;
+    color: black;
+    font-size: 15px;
+    float: left;
+    margin: 0.14em;
+    line-height: 40px;
+    border: solid 2px black;
+    
+    
+    
+}
+
+
+#contenido3{
+    width: 26%;
+    height: 99%;
+    background: rgba(255,255,255,.2);
+    border-radius: 1em;
+    margin: 0.5em;
+    float: left;
+
+      
+} 
+
+
+
+#Pruebasdepago {
+    width: 98%;
+    height: 90%;
+    background: rgba(255,255,255,.2);;
+    margin: 0.5em auto;
+}
+
+#tablatextopp thead {
+    background-color: rgb(60, 255, 0);
+    color: rgb(0, 0, 0);
+}
+
+#tablatextopp table{
+    width: 98%;
+background-color: rgba(255,255,255,.2);;
+text-align: left;
+border-collapse: collapse;
+margin: auto;
+color: rgb(0, 0, 0);
+font-weight: 700;
+}
+#tablatextopp tr:nth-child(even){
+    background-color: rgb(236, 134, 185);
+}
+#tablatextofp thead{
+    background-color: rgb(60, 255, 0) ;
+    color: black;
+}
+#tablatextofp table{
+    width: 98%;
+background-color: rgba(255,255,255,.2);;
+text-align: left;
+border-collapse: collapse;
+margin: 10px auto;
+color: rgb(0, 0, 0);
+font-weight: 700;
+}
+
+#tablatextofp tr:nth-child(even){
+    background-color: rgb(4, 187, 187);
+}
+.button{
+    width:100%;
+    color: rgb(255, 255, 255);
+    
+    font-size: 1em;
+    
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0px 3px 0px #6b006e25;
+    
+
+    background: rgb(0, 0, 0);
+}
+#tablatextoexp thead{
+    background-color: rgb(60, 255, 0) ;
+    color: black;
+}
+#tablatextoexp table{
+    width: 98%;
+background-color: rgba(255,255,255,.2);;
+text-align: left;
+border-collapse: collapse;
+margin: 10px auto;
+color: rgb(0, 0, 0);
+font-weight: 700;
+}
+
+#tablatextoexp tr:nth-child(even){
+    background-color: rgb(240, 140, 195);
+}
+
+
+
+
+
+ 
+   
+    
+
+
+
+
+           
+.footer {
+    background: black;
+    padding: 1rem 0;
+    text-align: center;
+    color: #00ffff;
+    width: 100%;
+}   
+.menu-link{
+    color: black; 
+}
+
+@media only screen and (max-width: 1080px) {
+
+.menu-icon {
+display: block;
+cursor: pointer;
+
+}
+
+.navigation {
+width: 100%;
+margin-top: 1rem;
+}    
+.navigation ul {
+display: none;
+
+} 
+.navigation ul.show {
+    display: block;
+
+ }   
+.navigation ul li {
+    display: block;  
+} 
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 0rem;
+    transition: all 0 linear;
+    border-radius: 5px;
+
+   }
+   .navigation ul li a:hover {
+    background: rgb(0, 163, 8) ;
+
+}
+
+
+}
