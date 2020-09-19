@@ -220,6 +220,16 @@ margin-top: 10px;
     text-align: center;
     
 } 
+#textcontenido1{
+    width: 98%;
+    height: 30px;
+    background: black;
+    font-size: 24px;
+    line-height: 30px;
+    color: white;
+    border-radius: 0.3em;
+    border: 4px solid #c300ff; 
+}
 #banercon{
     width: 98%;
     height: 36px;
@@ -232,7 +242,7 @@ margin-top: 10px;
     width: 98%;
     height: 100px;
     margin: 10px auto;
-    border: solid 0.3em rgb(0, 248, 12);
+    border: solid 0.2em rgb(0, 0, 0);
     
 }
 #banercoinpot img{
@@ -244,12 +254,12 @@ margin-top: 10px;
 
 #textcoinpot{
     width: 98%;
-    height:40px;
+    height:129px;
     border: solid 2px black;
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: left;
     margin: 5px auto;
-    background: rgb(150, 168, 164);
+    background: rgb(30, 44, 41);
 }
 
 table{
@@ -333,13 +343,13 @@ thead{
       
 } 
 #textcontenido2{
-    width: 98%;
+    width: 99%;
     height: 30px;
     background: black;
     font-size: 24px;
     color: white;
     border-radius: 0.3em;
-    border: 4px solid #00ff40;
+    border: 4px solid #c300ff;
 
 }
 
@@ -352,14 +362,16 @@ thead{
     border-radius: 0.3em;
     border: 4px solid #00ff40;
     line-height: 30px;
-    margin-top: 40px;
+    margin-top: 5px;
 
 }
-#textcontenidoexc{
+
+#textcontenidoizquierda
+{
     width: 98%;
     height: 30px;
     background: black;
-    font-size: 20px;
+    font-size: 17px;
     color: white;
     border-radius: 0.3em;
     border: 4px solid #00ff40;
@@ -463,13 +475,15 @@ thead{
     height: 80%;
     background: #00d9ff;
     color: black;
-    font-size: 15px;
+    font-size: 25px;
     border: solid 2px black;
+    border-radius: 0.5em;
     
     
     float: left;
     margin: 0.14em;
-    line-height: 40px;
+    line-height: 35px;
+    font-weight: 700;
    
     
     
@@ -485,6 +499,7 @@ thead{
     float: left;
     margin: 0.14em;
     line-height: 40px;
+    font-weight: 700;
    
     
 }
@@ -497,6 +512,7 @@ thead{
     float: left;
     margin: 0.14em;
     line-height: 40px;
+    font-weight: 700;
     
     
 }
@@ -509,7 +525,7 @@ thead{
     margin: 0.14em;
     line-height: 40px;
     border: solid 2px black;
-   
+    font-weight: 700;
 }
 #contenido225 a{
     text-decoration: none;
@@ -529,6 +545,7 @@ thead{
     margin: 0.14em;
     line-height: 40px;
     border: solid 2px black;
+    font-weight: 700;
     
     
     
@@ -545,14 +562,47 @@ thead{
 
       
 } 
+#textcontenido3{
+    width: 98%;
+    height: 30px;
+    background: black;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    border-radius: 0.3em;
+    border: 4px solid #c300ff;
+}
 
 
 
 #Pruebasdepago {
     width: 98%;
-    height: 90%;
+    height: 95%;
     background: rgba(255,255,255,.2);;
     margin: 0.5em auto;
+}
+#textcontenido33{
+    width: 98%;
+    height: 30px;
+    background: black;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    border-radius: 0.3em;
+    border: 4px solid #c300ff;
+    margin: 5px auto;
+}
+#textcontenidoexc{
+    width: 98%;
+    height: 30px;
+    background: black;
+    font-size: 17px;
+    color: white;
+    border-radius: 0.3em;
+    border: 4px solid #c300ff;
+    line-height: 30px;
+    margin-top: 20px;
+    
 }
 
 #tablatextopp thead {
@@ -578,7 +628,7 @@ font-weight: 700;
 }
 #tablatextofp table{
     width: 98%;
-background-color: rgba(255,255,255,.2);;
+background-color: rgba(255,255,255,.2);
 text-align: left;
 border-collapse: collapse;
 margin: 10px auto;
@@ -592,15 +642,21 @@ font-weight: 700;
 .button{
     width:100%;
     color: rgb(255, 255, 255);
-    
-    font-size: 1em;
-    
+    font-size: 0.7em;
     text-decoration: none;
     text-align: center;
-    box-shadow: 0px 3px 0px #6b006e25;
-    
-
+    box-shadow: 0px 3px 0px #00c3ff25;
     background: rgb(0, 0, 0);
+}
+.button a{
+    text-decoration: none;
+    color: white;
+
+}
+.button a:hover{
+          background: rgb(0, 255, 242);
+          font-size: 1em;
+          color: black;
 }
 #tablatextoexp thead{
     background-color: rgb(60, 255, 0) ;
@@ -608,7 +664,7 @@ font-weight: 700;
 }
 #tablatextoexp table{
     width: 98%;
-background-color: rgba(255,255,255,.2);;
+background-color: rgba(255,255,255,.2);
 text-align: left;
 border-collapse: collapse;
 margin: 10px auto;
@@ -618,6 +674,47 @@ font-weight: 700;
 
 #tablatextoexp tr:nth-child(even){
     background-color: rgb(240, 140, 195);
+}
+
+
+#banerizquierda{
+    width: 95%;
+    height: 55px;
+    margin: 10px auto;
+    
+
+}
+#banerizquierda img{
+    width: 100%;
+    height: 90%;
+    border:solid 2px white;
+}
+
+
+.textbtc{
+    width: 98%;
+    height: 30px;
+    background: black;
+    color: white;
+    line-height: 30px;
+    margin: 5px auto;
+    border:solid 3px rgb(255, 255, 255);
+}
+
+.banerbtc{
+    width: 100%;
+    height: 11.5%;
+    
+}
+.banerbtc img{
+    width: 99%;
+    height: 50px;
+    border: solid 2px white;
+}
+
+#flagcounter img{
+    width: 100%;
+
 }
 
 
