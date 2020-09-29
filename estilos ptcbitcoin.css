@@ -202,7 +202,7 @@ margin-top: 10px;
 
 #contenido{
     width: 1500px;
-    height: 3400px; 
+    height: 2150px; 
     margin: auto;
     text-align: center;
 
@@ -379,6 +379,20 @@ thead{
     margin-top: 20px;
     
 }
+
+#textcontenidoizquierda1
+{
+    width: 98%;
+    height: 30px;
+    background: black;
+    font-size: 17px;
+    color: white;
+    border-radius: 0.3em;
+    border: 4px solid #00ff40;
+    line-height: 30px;
+    margin-top: 65px;
+    
+}
 #tabladetalles{
     width: 98%;
     height: 30px;
@@ -535,11 +549,42 @@ thead{
 #contenido225 a:hover{
     background: rgb(119, 0, 255);
 }
-#contenido226{
+#contenido2261{
     width: 18.5%;
     height: 80%;
-    background: #3af700;
-    color: black;
+    background: black;
+    color: #3af700;
+    font-size: 15px;
+    float: left;
+    margin: 0.14em;
+    line-height: 40px;
+    border: solid 2px black;
+    font-weight: 700;
+    
+    
+    
+}
+#contenido2262{
+    width: 18.5%;
+    height: 80%;
+    background: black;
+    color: #f79c00;
+    font-size: 15px;
+    float: left;
+    margin: 0.14em;
+    line-height: 40px;
+    border: solid 2px black;
+    font-weight: 700;
+    
+    
+    
+}
+
+#contenido2263{
+    width: 18.5%;
+    height: 80%;
+    background: black;
+    color: #00e7f7;
     font-size: 15px;
     float: left;
     margin: 0.14em;
@@ -591,6 +636,18 @@ thead{
     border-radius: 0.3em;
     border: 4px solid #c300ff;
     margin: 5px auto;
+}
+.textbtcextension{
+    margin-top: 180px;
+    width: 98%;
+    height: 30px;
+    background: black;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    border-radius: 0.3em;
+    border: 4px solid #c300ff;
+
 }
 #textcontenidoexc{
     width: 98%;
@@ -690,9 +747,36 @@ font-weight: 700;
     border:solid 2px white;
 }
 
+#banerizquierda1{
+    width: 95%;
+    height: 55px;
+    margin: 10px auto;
+    
+
+}
+#banerizquierda1 img{
+    width: 100%;
+    height: 90%;
+    border:solid 2px white;
+}
+
+.payeer{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(0, 0, 0);
+    color: yellow;
+    margin: 10px auto;
+    text-align: left;
+}
+
+.payeer img{
+    width: 98%;
+    height: 50px;
+    border: solid 2px rgb(0, 0, 0);
+}
 
 .textbtc{
-    width: 98%;
+    width: 99%;
     height: 30px;
     background: black;
     color: white;
@@ -702,22 +786,67 @@ font-weight: 700;
 }
 
 .banerbtc{
-    width: 100%;
+    width: 98%;
     height: 11.5%;
+    padding-top: 10px;
+    margin: auto;
+
+    
     
 }
 .banerbtc img{
-    width: 99%;
+    width: 98%;
     height: 50px;
     border: solid 2px white;
 }
 
+.textbtcbit{
+    width: 99%;
+    height: 30px;
+    background: black;
+    color: white;
+    line-height: 30px;
+    margin-top: 130px;
+    border:solid 3px rgb(255, 255, 255);
+}
+
+
+#flagcounter{
+    margin: 200px auto;
+}
 #flagcounter img{
     width: 100%;
 
 }
 
+#flagcounterptc{
+    margin: 500px auto;
+}
+#flagcounterptc img{
+    width: 100%;
 
+}
+
+#flagcounterbtc{
+    margin: 500px auto;
+}
+#flagcounterbtc img{
+    width: 100%;
+
+}
+
+
+.conversor{
+    width: 100%;
+}
+
+.conversor iframe{
+    width: 80%;
+    margin: 70px auto;
+    border: solid 2px black;
+
+
+}
 
 
 
